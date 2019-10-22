@@ -24,6 +24,13 @@ docker run -p 3030:80 -v $PWD/videos:/opt/static/videos -v $PWD/nginx.conf:/usr/
 * `nginx.conf` its nginx config file.
 * you can change video path by change `$PWD/videos` to new path
 
+## Example
+
+* HLS: http://localhost:3030/hls/demo.mp4,.urlset/master.m3u8
+* Dash: http://localhost:3030/dash/demo.mp4,.urlset/manifest.mpd
+* Thumbnail: http://localhost:3030/thumb/demo.mp4/thumb-1000.jpg
+
+
 ## Source
 
 * [dojocasts/nginx-vod-module-docker](https://gitlab.com/dojocasts/nginx-vod-module-docker)
