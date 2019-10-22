@@ -26,9 +26,9 @@ docker run -p 3030:80 -v $PWD/videos:/opt/static/videos -v $PWD/nginx.conf:/usr/
 
 ## Example
 
-* HLS: http://localhost:3030/hls/demo.mp4,.urlset/master.m3u8
-* Dash: http://localhost:3030/dash/demo.mp4,.urlset/manifest.mpd
-* Thumbnail: http://localhost:3030/thumb/demo.mp4/thumb-1000.jpg
+* HLS: `http://localhost:3030/hls/demo.mp4/master.m3u8`
+* Dash: `http://localhost:3030/dash/demo.mp4/manifest.mpd`
+* Thumbnail: `http://localhost:3030/thumb/demo.mp4/thumb-1000.jpg`
 
 
 ## Source
