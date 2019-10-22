@@ -23,6 +23,8 @@ docker run -p 3030:80 -v $PWD/videos:/opt/static/videos -v $PWD/nginx.conf:/usr/
 * `/videos` its local directory for video sources 
 * `nginx.conf` its nginx config file.
 * you can change video path by change `$PWD/videos` to new path
+* Add `-d` after `run`, if you want run it background, like :
+  * ```docker run -d -p 3030:80 -v $PWD/videos:/opt/static/videos -v $PWD/nginx.conf:/usr/local/nginx/conf/nginx.conf nginxvod```
 
 ## Example
 
