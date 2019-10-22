@@ -26,14 +26,14 @@ docker run -p 3030:80 -v $PWD/videos:/opt/static/videos -v $PWD/nginx.conf:/usr/
 * Add `-d` after `run`, if you want run it background
 
 
-### Example
+## Example
 
 * HLS: `http://localhost:3030/hls/demo.mp4/master.m3u8`
 * Dash: `http://localhost:3030/dash/demo.mp4/manifest.mpd`
 * Thumbnail: `http://localhost:3030/thumb/demo.mp4/thumb-1000.jpg`
 
 
-### Run examples
+## Run examples
 
 * Run in background :
 
